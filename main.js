@@ -26,6 +26,10 @@ function makeCapitalized(string){
   return string.toUpperCase()
 }
 
+function yellLouder(string){
+  return string.toUpperCase() + "!!!"
+}
+
 
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
