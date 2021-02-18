@@ -22,6 +22,9 @@ function getTwoCharacters(string, num1, num2){
   return string[num1] + string[num2]
 }
 
+function makeCapitalized(string){
+  return string.toUpperCase()
+}
 
 
 /********************************************************************
