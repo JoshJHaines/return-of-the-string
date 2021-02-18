@@ -30,6 +30,10 @@ function yellLouder(string){
   return string.toUpperCase() + "!!!"
 }
 
+function getInitials(string){
+  let x = string.indexOf(' ') + 1;
+  return string[0] + "." + string.charAt(x) + '.'
+}
 
 /********************************************************************
  * THIS CODE IS FOR INTERNAL USE ONLY. DON'T CHANGE ANYTHING BELOW! *
