@@ -1,8 +1,22 @@
 /*******************
  * YOUR CODE HERE! *
  *******************/
+function yell(string){
+  string = string + "!";
+  return string
+}
 
+function getFirstCharacter(string){
+  return string[0]
+}
 
+function getLastCharacter(string){
+  return string[string.length-1]
+}
+
+function getOneCharacter(string, num){
+  return string[num]
+}
 
 
 
